@@ -1,0 +1,34 @@
+.active {
+  background-color: #717171;
+}
+
+.test-container {
+  cursor: default;
+  background-color: #6ec1cc50;
+  border: double #518c93 5px;
+  position: relative;
+  width: max-content;
+  
+  padding-top: 100px;
+  padding-left:  180px;
+  padding-right: 180px;
+  padding-bottom: 100px;
+
+  display: inline;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  margin-bottom:auto;
+
+
+  transition:
+    background-color 0.5s ease-in,
+    width 0.3s ease-in 0.5s,
+    border 1s ease-in,
+    padding-top 0.3s ease-in,
+    padding-bottom 0.3s ease-in;
+}
+.test-container > .disclaimer{
+  font-size: 12px;
+}

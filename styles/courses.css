@@ -1,0 +1,325 @@
+nav{
+  opacity:100%;
+}
+.courses-container {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+.courses-container >
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /*overflow: hidden;*/
+
+    border-radius: 8px;
+    position:relative;
+    
+    background-color: #eeeeee40;
+    
+    width:400px;
+    height:200px;
+}
+
+.courses-container > .details {
+        
+    text-align: center;
+    display: flex;
+     padding:50px;
+
+    position:absolute;
+    z-index: 1;
+    left:-69px;
+    top:36px;
+    
+        width:200px;
+        font-size: .6em;
+}
+
+
+
+.addons-container {
+    width: 100%;
+    min-height: 21vh;
+    padding: 20px;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+.addons-container >
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 8px;
+    position:relative;
+    
+    /*overflow: hidden;*/
+    
+    background-color: #eeeeee40;
+    
+    width:250px;
+    height:215px;
+}
+.addons-container > .details {
+        
+    text-align: center;
+    display: flex;
+     padding:50px;
+
+    position:absolute;
+    z-index: 1;
+    left:-69px;
+    top:36px;
+    
+        width:200px;
+        font-size: .6em;
+}
+
+
+
+
+
+.printables-container {
+    width: 100%;
+    min-height: 25vh;
+    padding: 20px;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+
+.printables-container >
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 8px;
+    position:relative;
+    /*overflow: hidden;*/
+    
+    background-color: eeeeee40;
+    
+    width:200px;
+    height:200px;
+}
+.printables-container > .card > .courses-img{
+   width:200px;
+   height:100px;
+  }
+.printables-container > .card > .card-title {
+   top:94px;
+  }
+
+.printables-container > .card > .details {
+        
+    text-align: center;
+    display: flex;
+     padding:50px;
+
+    position:absolute;
+    z-index: 1;
+    right:25px;
+    bottom:0;
+    
+        width:100px;
+        font-size: .6em;
+}
+
+
+
+
+
+
+.price{
+    color:#0fb90f;
+    text-align: center;
+    font-size:1em;
+    font-weight:600;
+    
+    position: absolute;
+    bottom:2px;
+    right:12px;
+}
+del {
+    color: #e80808;
+}
+
+.card-title{
+    font-size:.8em;
+    
+    position:absolute;
+    bottom:65px;
+}
+.addons-container > .card > .card-title{
+    font-size:.8em;
+    
+    position:absolute;
+    bottom:82px;
+}
+
+
+.courses-container > .card > .details > .buy-btn {
+cursor: pointer;
+    
+    position: absolute;
+    scale:90%;
+    bottom:0;
+    left:0;
+}
+.addons-container > .card > .details > .buy-btn {
+cursor: pointer;
+    
+    position: absolute;
+    scale:90%;
+    bottom:0;
+    left:0;
+    }
+
+.addons-container > .card > .details > .buy-btn > p > button {
+    font-size: 8px;
+    position:absolute;
+}
+
+
+.printables-container > .card > .details > .buy-btn button{
+cursor: pointer;
+    
+    position: absolute;
+    scale:67%;
+    bottom:-50px;
+    left:-125px;
+    width: max-content;
+  
+}
+
+
+
+.addons-container > .card > .product-description{
+    text-align: center;
+    font-size: .6em;
+    position: relative;
+    bottom:-45px;
+    right:0;
+    padding:8px;
+}
+.courses-container > .card > .product-description{
+    text-align: center;
+    font-size: .6em;
+    position: relative;
+    top:40px;
+    color:#000;
+    right:0;
+}
+.printables-container > .card > .product-description{
+    text-align: center;
+    font-size: .6em;
+        color:#000;
+    
+    position: relative;
+    top:38px;
+    right:0;
+    
+    width:150px;
+}
+
+
+.printables-container > .card > .details > .buy-btn > p > button {
+    font-size: 8px;
+    position:absolute;
+    left:-30px;
+    bottom:-8px;
+}
+
+
+
+.disclaimer{
+    font-size: 8px;
+    opacity: 25%;
+    transition: opacity 2s, bottom 1s, top 1s;
+    position: absolute;
+    bottom: -15.3px;
+    left:40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.disclaimer:hover{
+    opacity: 100%;
+    bottom: 4px;
+    transition: opacity 0.5s, bottom 0.5s, top 0.5s;
+}
+/* Fallback: */
+.courses-img{
+    width:400px;
+    height:100px;
+    
+    border-radius: 8px;
+
+    top:0;
+    z-index: 0;
+    
+    position: absolute;
+    
+}
+
+.addons-container > .card > .courses-img{
+   width:250px;
+   height:100px;
+  }
+
+.courses-header{
+  font-weight: 800px;
+  
+}
+
+
+.buy-btn {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    scale:100%;
+}
+
+.buy-btn button:hover {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #00ffff;
+    background: #13d5d5;
+    color: #ffffff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),
+        0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 25px;
+    transition: color .1s, background .5s, border .5s
+}
+
+.buy-btn button{
+cursor: pointer;
+    
+    position: absolute;
+    scale:70%;
+    bottom:0;
+    left:-10px;
+    
+    padding: 10px 20px;
+    border: 1px solid #860606;
+    background: #dd0000;
+    color: #ffffff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),
+        0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 25px;
+    transition: color 1s, background 4s, border 2s
+}
+
+
+

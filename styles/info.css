@@ -1,0 +1,38 @@
+.info-text{  
+  position: relative;
+    top:10px;
+    margin-left:auto;
+    margin-right:auto;
+  padding:20px;
+  width:60vw;
+  height:250px;
+}
+
+.info-text > .category-header {
+  
+  padding: 100px;
+  width: 850px;
+  height: 60px;
+  position: absolute;
+  top: -100px;
+  color: #191313;
+  transform: translateX(0); /* Default position */
+}
+
+.info-text >  .info-textchunk {
+  
+
+  width: 30;
+  height:60px;
+  position: absolute;
+  top:100px;
+  padding-bottom: 150px;
+
+}
+
+
+.category-header {
+  position: relative; /* Keep it positioned relative to its container */
+  transform: translateX(-100vw); /* Starts off-screen */
+  transition: transform 1s ease-out; /* Smooth sliding animation */
+}

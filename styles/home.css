@@ -1,0 +1,137 @@
+.sales{
+  position: relative;
+background-color: #000;
+color:#fff;
+  text-align: center;
+  padding:10px;
+}
+
+.slideimg{
+  position: absolute;
+  top:0;
+  margin-right:auto;
+  margin-left:auto;
+  
+  width:100;
+  height:25vw;
+  
+  overflow: hidden;
+}
+
+.slideshow-container{  
+  position: absolute;
+  overflow: hidden;
+  width:99vw;
+  height:25vw;
+  
+  background-color: #ffffff;
+  
+}
+
+.slideimg:hover{
+  cursor:pointer;
+}
+
+.home-img{
+  position:relative;
+  width:50vw;
+  height:100;
+
+  text-align: center;
+}
+
+.onboard-container{
+  width:791px;
+  height:1000px;
+  
+  text-align: center;
+  
+  padding:10px;
+  
+  margin-left:auto;
+  margin-right:auto;
+  
+  position:relative;
+    top:340px;
+}
+
+.onboard-container > div > article { 
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.onboard-container > a { 
+  color:aliceblue;
+}
+.home-space{
+  padding-top:200px;
+}
+
+.home-testbutton {
+  cursor: default;
+  background-color: #6ec1cc50;
+  border: double #518c93 5px;
+  position: relative;
+  bottom: -50px;
+  width: 25%;
+  height:75%;
+  
+  padding-top: 10px;
+  padding-left:  10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  display: inline;
+
+  transition:
+    background-color 0.5s ease-in,
+    width 0.3s ease-in 0.5s,
+    border 1s ease-in,
+    padding-top 0.3s ease-in,
+    padding-bottom 0.3s ease-in;
+}
+
+.home-testbutton:hover {
+  cursor: pointer;
+  background-color: #9d79d6;
+  border: double #5e3b94 5px;
+  width: 75%;
+  height:auto;
+
+  padding-top: 20px;
+  padding-left:  20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  
+  font-size: 18px;
+
+  transition:
+    background-color 0.2s ease-out,
+    width 0.5s ease-out  0.3s,
+    font-size 0.5s ease-in,
+    border 0.5s ease-out,
+    padding-top 0.3s ease-out,
+    padding-bottom 0.3s ease-out;
+}
+/*.home-testlink{
+  background-color: transparent;
+  display: inline-flex;
+  width:max-content;
+  height:min-content;
+  
+  scale:105%;
+  color:#ffffff;
+  position: absolute;
+
+    top:1016px;
+    left:49.5px;
+  
+  font-size:16px;
+  
+  transition: background-color 2s, color 2s, scale 1s, font-size 0.5s, left 0.5s;
+}
+*/
+
+
+
+

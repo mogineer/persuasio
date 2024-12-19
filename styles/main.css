@@ -1,0 +1,67 @@
+*{
+  font-family: "condor", sans-serif;
+  font-style: normal;
+}
+  body {
+    background: #d6eaeb;
+}
+
+
+.category-header{
+  font-size: 40px;
+  align-content: center;
+    font-weight: 500;
+    
+}
+
+#layout{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.titleheader{
+  display: inline;
+  position:absolute;
+    z-index: 110;
+  left:50%;
+  font-family: "the-seasons", sans-serif;
+  
+  width:127px;
+  height:27px;
+}
+
+.main-container{
+  height:100vh;
+  width:100vw;
+  
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* unvisited link */
+.main-container a:link {
+  color: #518c93;
+}
+
+/* visited link */
+.main-container a:visited {
+  color: #402851;
+}
+
+/* mouse over link */
+.main-container a:hover {
+cursor: pointer;
+  color: #78ced9;
+}
+
+/* selected link */
+.main-container a:active {
+  color: #9696d0;
+}
+
+.maincontainer > .input[type=checkbox]{
+  color:#6ccdda;
+}
