@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Contact - Persuasio</title>
+        <link rel="stylesheet" href="styles/collect.css" />
+    </head>
+    <body>
+    
+<div class="header-container">
+<h2 class="titleheader">PERSUASIO</h2>
+<h3 class="titlesubheader">Persuasion Made Easy.</h3>
+</div>
+ <nav>
+  <form>
+   <div class="search">
+    <i class="fa fa-search"></i>
+        <span class="searchtext">Search</span>
+    <input class="search-query" type="search" name="searchbar" />
+    </div>
+  </form>
+<ul id="navi">
+  <li><a href="/index.html">Home</a></li>
+  <li><a href="/courses.html">Courses</a></li>
+  <li><a href="/forums.html">Forums</a></li>
+  <li><a href="/info.html">Info</a></li>
+  <li><a class="active" href="/contact.html">Contact Us</a></li>
+</ul>
+</nav>
+<br>
+
+<div class="main-container">
+<div class="contact-us">
+   <article class="contact-us-text"></article>
+   <form name="contactForm" onsubmit="return validateForm()">
+    <p>
+        <label for="name"> Name:</label>
+        <input type="text" id="cname" name="cname" 
+            placeholder="Amber Rainn" /><br><br>
+        <span id="name-error" class="error-message"></span>
+    </p>
+    <p>
+        <label for="email">Business Email:</label>
+        <input type="text" id="cemail" name="cemail" 
+            placeholder="adam.rose@business.com" /><br><br><br><br>
+        <span id="email-error" class="error-message"></span>
+    </p>
+    <p>
+        <label for="inquiry">Inquiry:</label> <br><br>
+        <input type="text" id="cinquiry" name="cinquiry" 
+            placeholder="We would like to collaborate with you in May 2025. Here's how we can benefit you…" />
+        <span id="inquiry-error" class="error-message"></span>
+    </p>
+
+    <input type="submit" value="Submit" id="csubmit"><br><br>
+    </form>
+  
+</div>
+    
+    
+    </div>
+    
+    
+    
+    
+<script src="main.js"></script> 
+    </body>
+</html>
